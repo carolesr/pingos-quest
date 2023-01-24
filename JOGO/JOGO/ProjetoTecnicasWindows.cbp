@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ProjetoTecnicasWindows" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Allegro" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="/usr/include" />
+					<Add directory="libs/allegro-5.0.10-mingw-4.7.0/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="libs/allegro-5.0.10-mingw-4.7.0/include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="`pkg-config allegro-5.0 allegro_primitives-5.0 allegro_audio-5.0 allegro_acodec-5.0 allegro_color-5.0 allegro_font-5.0 allegro_image-5.0  allegro_main-5.0 allegro_memfile-5.0 allegro_ttf-5.0 --libs`" />
+					<Add library="libs/allegro-5.0.10-mingw-4.7.0/lib/liballegro-5.0.10-monolith-mt.a" />
+					<Add directory="/usr/lib" />
+					<Add directory="libs/allegro-5.0.10-mingw-4.7.0/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Allegro" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="libs/allegro-5.0.10-mingw-4.7.0/include" />
+					<Add directory="/usr/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="libs/allegro-5.0.10-mingw-4.7.0/include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="`pkg-config allegro-5.0 allegro_primitives-5.0 allegro_audio-5.0 allegro_acodec-5.0 allegro_color-5.0 allegro_font-5.0 allegro_image-5.0  allegro_main-5.0 allegro_memfile-5.0 allegro_ttf-5.0 --libs`" />
+					<Add library="libs/allegro-5.0.10-mingw-4.7.0/lib/liballegro-5.0.10-monolith-mt.a" />
+					<Add directory="/usr/lib" />
+					<Add directory="libs/allegro-5.0.10-mingw-4.7.0/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="includes/Andador.h" />
+		<Unit filename="includes/Chefao.h" />
+		<Unit filename="includes/ChefaoPrimario.h" />
+		<Unit filename="includes/ChefaoSecundario.h" />
+		<Unit filename="includes/Entidade.h" />
+		<Unit filename="includes/EntidadeOriginal.h" />
+		<Unit filename="includes/Fase.h" />
+		<Unit filename="includes/Fase1.h" />
+		<Unit filename="includes/Fase2.h" />
+		<Unit filename="includes/Fase3.h" />
+		<Unit filename="includes/FaseFinal.h" />
+		<Unit filename="includes/FelizNatal.h" />
+		<Unit filename="includes/Fundo.h" />
+		<Unit filename="includes/GerenciadorColisao.h" />
+		<Unit filename="includes/Inimigo.h" />
+		<Unit filename="includes/Item.h" />
+		<Unit filename="includes/Jogador.h" />
+		<Unit filename="includes/Jogo.h" />
+		<Unit filename="includes/Lista.h" />
+		<Unit filename="includes/ListaItem.h" />
+		<Unit filename="includes/ListaJogador.h" />
+		<Unit filename="includes/ListaPersonagem.h" />
+		<Unit filename="includes/Menu.h" />
+		<Unit filename="includes/MenuFases.h" />
+		<Unit filename="includes/MenuPausa.h" />
+		<Unit filename="includes/Passaro.h" />
+		<Unit filename="includes/Peixinho.h" />
+		<Unit filename="includes/Personagem.h" />
+		<Unit filename="includes/Pinguim.h" />
+		<Unit filename="includes/PinguimRei.h" />
+		<Unit filename="includes/Plataforma.h" />
+		<Unit filename="includes/PlataformaGelo.h" />
+		<Unit filename="includes/PlataformaMadeira.h" />
+		<Unit filename="includes/PlataformaPedras.h" />
+		<Unit filename="includes/Ponto.h" />
+		<Unit filename="includes/Saltador.h" />
+		<Unit filename="includes/SemSaida.h" />
+		<Unit filename="includes/Teclado.h" />
+		<Unit filename="includes/Ursinho.h" />
+		<Unit filename="sources/Andador.cpp" />
+		<Unit filename="sources/Chefao.cpp" />
+		<Unit filename="sources/ChefaoPrimario.cpp" />
+		<Unit filename="sources/ChefaoSecundario.cpp" />
+		<Unit filename="sources/Entidade.cpp" />
+		<Unit filename="sources/EntidadeOriginal.cpp" />
+		<Unit filename="sources/Fase.cpp" />
+		<Unit filename="sources/Fase1.cpp" />
+		<Unit filename="sources/Fase2.cpp" />
+		<Unit filename="sources/Fase3.cpp" />
+		<Unit filename="sources/FaseFinal.cpp" />
+		<Unit filename="sources/FelizNatal.cpp" />
+		<Unit filename="sources/Fundo.cpp" />
+		<Unit filename="sources/GerenciadorColisao.cpp" />
+		<Unit filename="sources/Inimigo.cpp" />
+		<Unit filename="sources/Item.cpp" />
+		<Unit filename="sources/Jogador.cpp" />
+		<Unit filename="sources/Jogo.cpp" />
+		<Unit filename="sources/ListaItem.cpp" />
+		<Unit filename="sources/ListaJogador.cpp" />
+		<Unit filename="sources/ListaPersonagem.cpp" />
+		<Unit filename="sources/Menu.cpp" />
+		<Unit filename="sources/MenuFases.cpp" />
+		<Unit filename="sources/MenuPausa.cpp" />
+		<Unit filename="sources/Passaro.cpp" />
+		<Unit filename="sources/Peixinho.cpp" />
+		<Unit filename="sources/Personagem.cpp" />
+		<Unit filename="sources/Pinguim.cpp" />
+		<Unit filename="sources/PinguimRei.cpp" />
+		<Unit filename="sources/Plataforma.cpp" />
+		<Unit filename="sources/PlataformaGelo.cpp" />
+		<Unit filename="sources/PlataformaMadeira.cpp" />
+		<Unit filename="sources/PlataformaPedras.cpp" />
+		<Unit filename="sources/Ponto.cpp" />
+		<Unit filename="sources/Saltador.cpp" />
+		<Unit filename="sources/SemSaida.cpp" />
+		<Unit filename="sources/Teclado.cpp" />
+		<Unit filename="sources/Ursinho.cpp" />
+		<Unit filename="sources/exemploAllegro.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

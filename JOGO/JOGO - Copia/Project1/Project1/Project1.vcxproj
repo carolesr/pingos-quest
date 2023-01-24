@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{BE692FC1-A8DB-44C7-A045-7BFFE1FBB373}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Andador.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Chefao.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\ChefaoPrimario.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\ChefaoSecundario.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Entidade.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\EntidadeOriginal.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\exemploAllegro.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Fase.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Fase1.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Fase2.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Fase3.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\FaseFinal.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\FelizNatal.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Fundo.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\GerenciadorColisao.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\HighScore.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Inimigo.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Item.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Jogador.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Jogo.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\ListaItem.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\ListaJogador.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\ListaPersonagem.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Menu.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\MenuFases.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\MenuPausa.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Passaro.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Peixinho.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Personagem.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Pinguim.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\PinguimRei.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Plataforma.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\PlataformaGelo.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\PlataformaMadeira.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\PlataformaPedras.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Ponto.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Saltador.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\SemSaida.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Teclado.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Ursinho.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dvec.inl" />
+    <None Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8math.inl" />
+    <None Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dxmath.inl" />
+    <None Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dxsdk.inc" />
+    <None Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Colisoes.cpp.save-failed" />
+    <None Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Jogador.cpp.save-failed" />
+    <None Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Jogo.cpp.save-failed" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Andador.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Chefao.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\ChefaoPrimario.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\ChefaoSecundario.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Entidade.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\EntidadeOriginal.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Fase.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Fase1.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Fase2.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Fase3.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\FaseFinal.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\FelizNatal.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Fundo.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\GerenciadorColisao.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\HighScore.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Inimigo.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Item.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Jogador.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Jogo.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Lista.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\ListaItem.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\ListaJogador.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\ListaPersonagem.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Menu.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\MenuFases.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\MenuPausa.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Passaro.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Peixinho.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Personagem.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Pinguim.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\PinguimRei.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Plataforma.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\PlataformaGelo.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\PlataformaMadeira.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\PlataformaPedras.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Ponto.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Saltador.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\SemSaida.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Teclado.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Ursinho.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3d.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3d8.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3d8caps.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3d8types.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dcaps.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3drm.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3drmdef.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3drmobj.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3drmwin.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dtypes.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8core.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8effect.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8math.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8mesh.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8shape.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8tex.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dxcore.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dxerr.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dxmath.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dxshapes.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dxsprite.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\ddraw.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\ddrawex.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\ddstream.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dinput.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dinputd.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dls1.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dls2.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmdls.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmerror.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmksctrl.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmo.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmodshow.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmoimpl.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmoreg.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmort.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmplugin.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmusbuff.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmusicc.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmusicf.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmusici.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmusics.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dpaddr.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dplay.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dplay8.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dplobby.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dplobby8.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dsetup.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dshow.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dshowasf.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dsound.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dumb.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dv.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dvdevcod.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dvdmedia.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dvoice.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dvp.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dx7todx8.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dxerr8.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dxfile.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dxtrans.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dxva.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\ft2build.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\multimon.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\physfs.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\rmxfguid.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\rmxftmpl.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\zconf.h" />
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\zlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\beer1_sheet_sprite.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\bird1.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\bloco3.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\bloco_madeira.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\chefao.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\fundo_1.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\fundo_fabrica3.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\fundo_mar2.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\gore.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\heart.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\krampus_sprite_sheet.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\papai_noel.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\peixe.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\Sprites-Pinguin-roxo.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\Sprites-Pinguin.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\Sprites_Pinguin.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\tiles.png" />
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\urso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libd3d8.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libd3dx8d.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libd3dxof.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libddraw.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdinput.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdinput8.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdplayx.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdpnaddr.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdpnet.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdpnlobby.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdpvoice.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdsetup.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdsound.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdumb-0.9.3-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdumb-0.9.3-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdumb-0.9.3-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdumb-0.9.3-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdxguid.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libFLAC-1.2.1-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libFLAC-1.2.1-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libFLAC-1.2.1-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libFLAC-1.2.1-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libfreetype-2.4.8-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libfreetype-2.4.8-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libfreetype-2.4.8-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libfreetype-2.4.8-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libogg-1.2.1-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libogg-1.2.1-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libogg-1.2.1-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libogg-1.2.1-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libopenal-1.14-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libopenal-1.14-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libopenal-1.14-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libopenal-1.14-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbis-1.3.2-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbis-1.3.2-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbis-1.3.2-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbis-1.3.2-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbisfile-1.3.2-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbisfile-1.3.2-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbisfile-1.3.2-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbisfile-1.3.2-static-mt.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libzlib-1.2.5-static-md-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libzlib-1.2.5-static-md.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libzlib-1.2.5-static-mt-debug.a" />
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libzlib-1.2.5-static-mt.a" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

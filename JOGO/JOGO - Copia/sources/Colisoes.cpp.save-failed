@@ -1,0 +1,182 @@
+#include "../includes/Colisoes.h"
+
+enum F
+{
+    D, E
+};
+
+Colisoes::Colisoes() {}
+Colisoes::~Colisoes() {}
+
+void Colisoes::adicionaJogador(Jogador* j)
+{
+    if(j)
+        jogadores.push_back(j);
+}
+
+void Colisoes::adicionaPersonagem(Personagem *p)
+{
+    if( p )
+        lista.push_back(p);
+}
+
+void Colisoes::adicionaItem(Item* it)
+{
+    if(it)
+        listaItens.push_back(it);
+}
+
+void Colisoes::adicionaPlataforma(Plataforma* plat)
+{
+    if(plat)
+        listaPlataformas.push_back(plat);
+}
+
+void Colisoes::verificaColisaoPersonagens()//compara as fronteiras do personagem com as dos objetos
+{
+
+    for( unsigned int w = 0 ; w < 2 ; w++ )//verifica para o primeiro e o segundo jogador
+    {
+        for( unsigned int i = 0 ; i < lista.size() ; i++ )
+        {
+            x1 = (jogadores[w])->get_x();
+            x3 = (lista[i])->get_x();
+
+            y1 = (jogadores[w])->get_y();
+            y3 = (lista[i])->get_y();
+
+            distancia1 = ((jogadores[w]->get_frameWidth())*(jogadores[w]->get_escala()))/2 + ((lista[i]->get_frameWidth())*(lista[i]->get_escala()))/2;
+
+            if( x1 > x3 )///pinguim indo para a esquerda
+            {
+                jogadores[w]->set_pode_mover(D, 1);//pode mover
+                lista[i]->set_pode_mover(E, 1);//pode mover
+
+
+                if( x1-x3 < distancia1 )//conferindo se também não estão na mesma altura
+                {
+                    if(y3-y1 > distancia1)
+                    {
+                        jogadores[w]->set_pode_mover(E, 1);
+                        lista[i]->set_pode_mover(D, 1);
+                    }
+                    else
+                    {
+                        jogadores[w]->set_pode_mover(E, 0);
+                        lista[i]->set_pode_mover(D, 0);
+                        jogadores[w]->vai_pra_direita();
+                        jogadores[w]->perde_uma_vida();
+                        break;
+                    }
+                }
+                else
+                {
+                    jogadores[w]->set_pode_mover(E, 1);
+                    lista[i]->set_pode_mover(D, 1);
+                }
+
+
+            }
+            if( x1 < x3 )///pinguim indo para a direita
+            {
+                jogadores[w]->set_pode_mover(E, 1);
+                lista[i]->set_pode_mover(D, 1);
+
+
+                if( x3-x1 < distancia1 )
+                {
+                    if(y3-y1 > distancia1)
+                    {
+                        jogadores[w]->set_pode_mover(D, 1);
+                        lista[i]->set_pode_mover(E, 1);
+                    }
+                    else
+                    {
+                        jogadores[w]->set_pode_mover(D, 0);
+                        lista[i]->set_pode_mover(E, 0);
+                        jogadores[w]->vai_pra_esquerda();
+                        jogadores[w]->perde_uma_vida();
+                        break;
+                    }
+                }
+                else
+                {
+                    jogadores[w]->set_pode_mover(D, 1);
+                    lista[i]->set_pode_mover(E, 1);
+                }
+            }
+
+        }
+    }
+
+}
+
+void Colisoes::verificaColisaoItem()
+{
+    for( unsigned int w = 0 ; w < 2 ; w++ )//verifica para o primeiro e o segundo jogador
+    {
+        x1 = jogadores[w]->get_x();
+        y1 = jogadores[w]->get_y();
+
+        for( unsigned int i = 0 ; i < listaItens.size() ; i++ )//cuidado! estamos mechendo com a lista de objetos
+        {
+            x3 = listaItens[i]->get_x();
+            y3 = listaItens[i]->get_y();
+
+            distancia1 = (jogadores[w]->get_frameHeight())/4 + (listaItens[i]->get_altura())/2;
+
+            if( x1-x3 > 0 )
+            {
+                diferenca1 = x1-x3;
+            }
+            else
+            {
+                diferenca1 = x3-x1;
+            }
+
+            if( y1-y3 > 0 )
+            {
+                diferenca2 = y1-y3;
+            }
+            else
+            {
+                diferenca2 = y3-y1;
+            }
+
+            if( (diferenca1 <= distancia1) && (diferenca2 <= distancia1) )
+            {
+                listaItens[i]->set_obj_existe(0);
+                jogadores[w]->aumenta_bolas();
+                listaItens.erase(listaItens.begin()+i);
+            }
+        }
+    }
+}
+
+void Colisoes::verificaColisaoPlataformas()
+{
+    for( unsigned int w = 0 ; w < 2 ; w++ )//verifica para o primeiro e o segundo jogador
+    {
+        for( unsigned int i = 0 ; i < listaPlataformas.size() ; i++ )
+        {
+            //consefindo se o jogador está na zona da plataforma
+            if( jogadores[w]->get_x() >= (listaPlataformas[i])->get_extremo_esq()    &&    jogadores[w]->get_x() <= (listaPlataformas[i])->get_extremo_dir()   )//na zona x da plataforma, mas acima
+            {
+                if( jogadores[w]->get_y() <= listaPlataformas[i]->get_chao() )
+                     jogadores[w]->set_chao_atual(listaPlataformas[i]->get_chao());
+                if( jogadores[w]->get_y() > listaPlataformas[i]->get_chao()  )
+                     jogadores[w]->set_pulo_atual();
+                break;
+
+            }
+            else
+            {
+                jogadores[w]->set_chao_atual(jogadores[w]->get_chao());
+                jogadores[w]->set_pulo_original( );
+            }
+
+        }
+
+    }
+}
+

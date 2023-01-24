@@ -1,0 +1,79 @@
+﻿  exemploAllegro.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\fase.h(2): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Ursinho.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Teclado.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\teclado.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro5.h': No such file or directory
+  SemSaida.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\semsaida.h(3): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro_acodec.h': No such file or directory
+  Saltador.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  PlataformaPedras.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidade.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  PlataformaMadeira.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidade.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  PlataformaGelo.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidade.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Plataforma.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidade.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  PinguimRei.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Pinguim.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Personagem.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Peixinho.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Passaro.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  MenuPausa.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\menupausa.h(2): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro_acodec.h': No such file or directory
+  MenuFases.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\menufases.h(2): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro_acodec.h': No such file or directory
+  Menu.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\menu.h(2): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro_acodec.h': No such file or directory
+  ListaPersonagem.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  ListaJogador.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  ListaItem.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidade.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Gerando Código...
+  Compilando...
+  Jogo.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\fase.h(2): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Jogador.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Item.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidade.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Inimigo.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  GerenciadorColisao.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\fundo.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Fundo.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\fundo.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  FelizNatal.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\feliznatal.h(2): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro_acodec.h': No such file or directory
+  FaseFinal.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\teclado.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro5.h': No such file or directory
+  Fase3.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\fase.h(2): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Fase2.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\fase.h(2): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Fase1.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\fase.h(2): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Fase.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\fase.h(2): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  EntidadeOriginal.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Entidade.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidade.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  ChefaoSecundario.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  ChefaoPrimario.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Chefao.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Andador.cpp
+c:\users\carol\desktop\pingos's quest\jogo_e_executavel\jogo\jogo - copia\includes\entidadeoriginal.h(4): fatal error C1083: Não é possível abrir arquivo incluir: 'allegro5/allegro.h': No such file or directory
+  Gerando Código...

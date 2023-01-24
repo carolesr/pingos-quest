@@ -1,0 +1,164 @@
+#include "../includes/Jogo.h"
+
+
+Jogo::~Jogo()///temos qeu destruir mais coisas
+{
+    al_destroy_font(font);
+    al_destroy_font(fontT);
+    al_destroy_bitmap(fundo);
+    al_destroy_bitmap(gore);
+    al_destroy_bitmap(coisas);
+    al_destroy_bitmap(heart);
+    al_destroy_bitmap(pingo2);
+    al_destroy_bitmap(pingo);
+    al_destroy_bitmap(teste);
+    al_destroy_bitmap(krampus);
+    al_destroy_bitmap(wag);
+    al_destroy_audio_stream(musica1);
+
+    teclado = NULL; menu = NULL; fundo = NULL;
+    wag = NULL; krampus = NULL; teste = NULL; pingo = NULL; pingo2 = NULL; heart = NULL; coisas = NULL; gore = NULL;
+    p1 = NULL; p2 = NULL; p3 = NULL; p4 = NULL; p5 = NULL;
+    font = NULL; fontT = NULL;
+
+}
+
+//aqui criamos os personagens
+Jogo::Jogo( Teclado* tec, int *men ):
+    mapa1( 1200, 800 ),
+    ursinho1( 2, SCREEN_W/6, SCREEN_H-SCREEN_H/4.68, 32, 32, 3, 20, 1 ),
+    robo1( 2, 2*SCREEN_W/3, SCREEN_H-SCREEN_H/4.68, 180, 180, 4, 20, 0.2 ),
+    pinguim1( 0, SCREEN_W/2, SCREEN_H-SCREEN_H/4.9, 61, 63, 3, 60, 0.35 ),
+    plat1( 1*SCREEN_W/5, 4.5*SCREEN_H/7, 0.4, 80, 80, 1, 6),
+    plat2( 1.5*SCREEN_W/5, 4.5*SCREEN_H/7, 0.4, 80, 80, 1, 6),
+    plat3( 2*SCREEN_W/5, 4.5*SCREEN_H/7, 0.4, 80, 80, 1, 6),
+    plat4( 2.5*SCREEN_W/5, 4.5*SCREEN_H/7, 0.4, 80, 80, 1, 6), item1( 30, 30, 1, 44, 44, 0, 0),
+    item2( 2*SCREEN_W/5, 4*SCREEN_H/7, 0.4, 40, 40, 0, 0 ), item3( 3*SCREEN_W/5, 4*SCREEN_H/7, 0.4, 40, 40, 0, 0 ),
+    item4( 4*SCREEN_W/5, 4*SCREEN_H/7, 0.4, 40, 40, 0, 0 ), item5( SCREEN_W/2, SCREEN_H/3, 0.4, 40, 40, 0, 0 )
+{
+    teclado = tec;
+    menu = men;
+
+    jogador2.set_player( 0 );//não é p player 1
+
+    ///carregando as fontes
+    font = al_load_ttf_font("fonte.ttf", 30, 0 );//TEMOS A VARIÁVEL FONTE E ESTAMOS CARREGANDO A FONTE NESSE PONTEIRO
+    fontT = al_load_ttf_font("fanny.ttf", 85, 0);//fonte do título
+
+    ///carregando minhas musicas
+    musica1 = al_load_audio_stream("fase1_convertida.ogg", 4, 1024);
+    if ( !musica1 )
+        cout << "erro ao carregar a musica" << endl;
+    /*//liga o stream no mixer
+    al_attach_audio_stream_to_mixer(musica1, al_get_default_mixer());
+    //define que o stream vai tocar no modo repeat
+    al_set_audio_stream_playmode(musica1, ALLEGRO_PLAYMODE_LOOP);*/
+
+    ///setando as imagens
+    fundo = al_load_bitmap("imagens/fundo_1.png");
+    if( !fundo )
+        cout << "As imagens não esto sendo carregadas corretamente" << endl;
+
+    wag = al_load_bitmap("imagens/beer1_sheet_sprite.png");
+    krampus = al_load_bitmap("imagens/krampus_sprite_sheet.png");
+    teste = al_load_bitmap("imagens/Sprites_Pinguin.png");
+    pingo = al_load_bitmap("imagens/Sprites-Pinguin.png");
+    pingo2 = al_load_bitmap("imagens/Sprites-Pinguin-roxo.png");
+    heart = al_load_bitmap("imagens/heart.png");
+    coisas = al_load_bitmap("imagens/tiles.png");
+    gore = al_load_bitmap("imagens/gore.png");
+
+    ///colocando as imagens nos personagems/jogadores
+    mapa1.setFundo(fundo);
+    ursinho1.set_sprites(wag);
+    robo1.set_sprites(krampus);
+    pinguim1.set_sprites(teste);
+
+    jogador1.set_sprites(pingo);
+    jogador2.set_sprites(pingo2);
+
+    plat1.set_objeto(coisas);
+    plat2.set_objeto(coisas);
+    plat3.set_objeto(coisas);
+    plat4.set_objeto(coisas);
+
+    item1.set_objeto(heart);
+    item2.set_objeto(gore);
+    item3.set_objeto(gore);
+    item4.set_objeto(gore);
+    item5.set_objeto(gore);
+
+    ///incluindo os objetos na lista de colisões
+    p1 = static_cast<Personagem*>(&ursinho1);
+    p2 = static_cast<Personagem*>(&robo1);
+    p3 = static_cast<Personagem*>(&pinguim1);
+
+    obj_colisoes.adicionaJogador(&jogador1);
+    obj_colisoes.adicionaJogador(&jogador2);
+
+    obj_colisoes.adicionaPersonagem(p1);
+    obj_colisoes.adicionaPersonagem(p2);
+    obj_colisoes.adicionaPersonagem(p3);
+
+    obj_colisoes.adicionaItem(&item1);
+    obj_colisoes.adicionaItem(&item2);
+    obj_colisoes.adicionaItem(&item3);
+    obj_colisoes.adicionaItem(&item4);
+    obj_colisoes.adicionaItem(&item5);
+
+    obj_colisoes.adicionaPlataforma(&plat1);
+    obj_colisoes.adicionaPlataforma(&plat2);
+    obj_colisoes.adicionaPlataforma(&plat3);
+    obj_colisoes.adicionaPlataforma(&plat4);
+}
+
+///Posso usar os personagens que já tenho em todas as fases
+
+void Jogo::primeira_fase()//aqui colocamos os personagens na primeira fase
+{
+    /// TOCANDO A MUSICA
+    al_set_audio_stream_playing(musica1, true);
+
+    ///DESENHANDO O FUNDO
+    mapa1.imprimeFundo();
+
+    ///MOVENDO O PERSONAGEM
+    ursinho1.mover();
+    robo1.mover();
+    pinguim1.mover();
+
+    ///IMPRIMINDO OBJETOS
+    plat1.imprime();
+    plat2.imprime();
+    plat3.imprime();
+    plat4.imprime();
+
+    jogador1.mover( teclado );
+    if( menu[1] == 1 )
+        jogador2.mover( teclado );
+    else if( menu[0] == 1 )//se temos apenas um jogador, zeramos as vidas dele
+        jogador2.zera_vidas();
+
+
+    item1.imprime();
+    item2.imprime();
+    item3.imprime();
+    item4.imprime();
+    item5.imprime();
+
+    ///ESCREVENDO COISAS
+    al_draw_textf(font, al_map_rgb(255, 255, 255), 30, 12, ALLEGRO_ALIGN_CENTRE, "%d", jogador1.get_vidas() + jogador2.get_vidas());
+    if( jogador1.get_vidas() + jogador2.get_vidas() == 0 )
+    {
+
+    }
+
+    ///VERIFICANDO AS COLISÔES
+    obj_colisoes.verificaColisaoPersonagens();
+    obj_colisoes.verificaColisaoItem();
+    obj_colisoes.verificaColisaoPlataformas();
+
+    ///DESENHANDO COISAS
+    al_flip_display();
+}
+

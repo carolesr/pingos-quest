@@ -1,0 +1,99 @@
+#include "../includes/Jogador.h"
+
+Jogador::Jogador()
+{
+    vidas = 3;// cada jogador começará o jogo com três vidas
+    player1 = 1;
+    y = SCREEN_H - SCREEN_H/4.545;
+    curFrame = 0;
+    frameCount = 0;
+    frameDelay = 2;
+    frameWidth = 32;
+    frameHeight = 30;
+    x = frameWidth/2;
+    esquerda = 0;
+    maxFrame = 2;
+    dy = 0;
+    gravidade = 5;
+    bolas = 0;
+    pulo = 30;
+    pulo_atual = pulo;
+    chao = SCREEN_H - SCREEN_H/4.545;
+    chao_atual = chao;
+}
+
+Jogador::~Jogador(){}
+
+    void Jogador::mover( Teclado *teclado )
+    {
+
+    if( player1 )//se estamos usando o player 1
+        tec = teclado->teclas;
+    else//se for o player 2
+        tec = teclado->teclas2;
+
+
+    if( curFrame >= maxFrame )
+        curFrame = 0;
+
+    if( tec[teclado->KEY_UP] )
+    {
+        if(y >= chao_atual)//if( pode_pular )//só pode pular se não estiver caindo
+            dy = - pulo_atual;//vai pulando de 10 em 10
+    }
+    cout << "pulo atual:" << pulo_atual << endl;
+
+    if( tec[teclado->KEY_RIGHT] )
+    {
+        if(pode_mover[teclado->DIREITA])
+            x += 7;
+        esquerda = 0;
+        curFrame++;
+    }
+
+    else if( tec[teclado->KEY_LEFT] )
+    {
+        if(pode_mover[teclado->ESQUERDA])
+            x += -7;
+        esquerda = 1;
+        curFrame++;
+    }
+
+    if( y < chao_atual )//criando e aumentando nossa gravidade, tirei p !pode pular
+        dy += gravidade;
+
+    y += dy;
+
+    if( y >= chao_atual )//colidindo com o chão, antes dy == pulo - gravidade
+    {
+        dy = 0;
+        y = chao_atual;//SCREEN_H - SCREEN_H/4.545
+    }
+
+    //al_draw_bitmap_region(p_sprites, curFrame * frameWidth, 0*frameHeight, frameWidth, frameHeight, x, y, esquerda);
+    al_draw_tinted_scaled_rotated_bitmap_region( p_sprites, curFrame * frameWidth, 0*frameHeight, frameWidth, frameHeight, al_map_rgb(255, 255, 255), frameWidth/2, frameHeight/2, x, y, 1.5, 1.5, 0, esquerda);
+
+}
+
+
+void Jogador::set_player( int player )
+{
+    player1 = player;
+}
+
+void Jogador::perde_uma_vida(){ vidas--; }
+int Jogador::get_vidas(){ return(vidas); }
+void Jogador::adiciona_uma_vida(){ vidas++; }
+void Jogador::zera_vidas(){ vidas = 0; }
+
+void Jogador::set_chao_atual( int n_chao ){ chao_atual = n_chao; }
+
+void Jogador::set_pulo_atual(){ pulo_atual = 10; }
+void Jogador::set_pulo_original(){ pulo_atual = pulo; }
+
+void Jogador::set_dy(int n_dy){ dy = n_dy; }
+
+int Jogador::get_chao(){ return(chao); }
+
+void Jogador::vai_pra_direita(){ x += 30; }
+void Jogador::vai_pra_esquerda(){ x -= 30; }

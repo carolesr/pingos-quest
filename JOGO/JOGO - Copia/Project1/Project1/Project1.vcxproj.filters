@@ -1,0 +1,996 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imagens">
+      <UniqueIdentifier>{3c9468d0-c339-4ac5-8082-6c41b414e4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{1e0b7b47-771a-40ba-9bc6-946c6eb3a455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\allegro-5.0.10-mingw-4.7.0">
+      <UniqueIdentifier>{36a356e4-750f-4dac-afec-2db3655389b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\allegro-5.0.10-mingw-4.7.0\lib">
+      <UniqueIdentifier>{feeabd3e-10fe-47b0-8dd7-2c334d3a1839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\allegro-5.0.10-mingw-4.7.0\include">
+      <UniqueIdentifier>{12fe9794-a38b-4d99-b74f-14d082db2a49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Andador.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Chefao.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\ChefaoPrimario.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\ChefaoSecundario.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Entidade.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\EntidadeOriginal.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\exemploAllegro.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Fase.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Fase1.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Fase2.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Fase3.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\FaseFinal.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\FelizNatal.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Fundo.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\GerenciadorColisao.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\HighScore.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Inimigo.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Item.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Jogador.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Jogo.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\ListaItem.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\ListaJogador.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\ListaPersonagem.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Menu.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\MenuFases.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\MenuPausa.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Passaro.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Peixinho.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Personagem.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Pinguim.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\PinguimRei.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Plataforma.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\PlataformaGelo.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\PlataformaMadeira.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\PlataformaPedras.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Ponto.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Saltador.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\SemSaida.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Teclado.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Ursinho.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Colisoes.cpp.save-failed">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Jogador.cpp.save-failed">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\sources\Jogo.cpp.save-failed">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dvec.inl">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8math.inl">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dxmath.inl">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dxsdk.inc">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Andador.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Chefao.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\ChefaoPrimario.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\ChefaoSecundario.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Entidade.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\EntidadeOriginal.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Fase.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Fase1.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Fase2.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Fase3.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\FaseFinal.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\FelizNatal.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Fundo.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\GerenciadorColisao.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\HighScore.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Inimigo.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Item.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Jogador.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Jogo.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Lista.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\ListaItem.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\ListaJogador.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\ListaPersonagem.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Menu.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\MenuFases.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\MenuPausa.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Passaro.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Peixinho.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Personagem.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Pinguim.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\PinguimRei.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Plataforma.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\PlataformaGelo.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\PlataformaMadeira.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\PlataformaPedras.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Ponto.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Saltador.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\SemSaida.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Teclado.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\includes\Ursinho.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3d.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3d8.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3d8caps.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3d8types.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dcaps.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3drm.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3drmdef.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3drmobj.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3drmwin.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dtypes.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8core.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8effect.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8math.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8mesh.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8shape.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dx8tex.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dxcore.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dxerr.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dxmath.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dxshapes.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\d3dxsprite.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\ddraw.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\ddrawex.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\ddstream.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dinput.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dinputd.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dls1.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dls2.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmdls.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmerror.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmksctrl.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmo.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmodshow.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmoimpl.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmoreg.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmort.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmplugin.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmusbuff.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmusicc.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmusicf.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmusici.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dmusics.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dpaddr.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dplay.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dplay8.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dplobby.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dplobby8.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dsetup.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dshow.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dshowasf.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dsound.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dumb.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dv.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dvdevcod.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dvdmedia.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dvoice.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dvp.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dx7todx8.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dxerr8.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dxfile.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dxtrans.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\dxva.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\ft2build.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\multimon.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\physfs.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\rmxfguid.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\rmxftmpl.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\zconf.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\include\zlib.h">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\beer1_sheet_sprite.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\bird1.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\bloco_madeira.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\bloco3.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\chefao.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\fundo_1.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\fundo_fabrica3.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\fundo_mar2.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\gore.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\heart.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\krampus_sprite_sheet.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\papai_noel.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\peixe.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\Sprites_Pinguin.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\Sprites-Pinguin.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\Sprites-Pinguin-roxo.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\tiles.png">
+      <Filter>imagens</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\imagens\urso.png">
+      <Filter>imagens</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_acodec-5.0.10-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_audio-5.0.10-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_color-5.0.10-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_dialog-5.0.10-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_font-5.0.10-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_image-5.0.10-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_memfile-5.0.10-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_physfs-5.0.10-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_primitives-5.0.10-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro_ttf-5.0.10-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libd3d8.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libd3dx8d.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libd3dxof.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libddraw.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdinput.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdinput8.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdplayx.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdpnaddr.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdpnet.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdpnlobby.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdpvoice.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdsetup.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdsound.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdumb-0.9.3-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdumb-0.9.3-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdumb-0.9.3-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdumb-0.9.3-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libdxguid.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libFLAC-1.2.1-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libFLAC-1.2.1-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libFLAC-1.2.1-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libFLAC-1.2.1-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libfreetype-2.4.8-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libfreetype-2.4.8-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libfreetype-2.4.8-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libfreetype-2.4.8-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libogg-1.2.1-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libogg-1.2.1-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libogg-1.2.1-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libogg-1.2.1-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libopenal-1.14-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libopenal-1.14-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libopenal-1.14-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libopenal-1.14-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbis-1.3.2-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbis-1.3.2-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbis-1.3.2-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbis-1.3.2-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbisfile-1.3.2-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbisfile-1.3.2-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbisfile-1.3.2-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libvorbisfile-1.3.2-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libzlib-1.2.5-static-md.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libzlib-1.2.5-static-md-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libzlib-1.2.5-static-mt.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\Pingos%27s Quest\jogo_e_executavel\JOGO\JOGO - Copia\libs\allegro-5.0.10-mingw-4.7.0\lib\libzlib-1.2.5-static-mt-debug.a">
+      <Filter>libs\allegro-5.0.10-mingw-4.7.0\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
